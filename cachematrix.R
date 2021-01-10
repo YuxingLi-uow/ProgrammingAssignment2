@@ -7,7 +7,6 @@
 ## Write a short comment describing this function
 # save inverse matrix to cache
 # build-in functions include: set(), get(), setinverse(), getinverse()
-
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y) {
@@ -38,4 +37,16 @@ cacheSolve <- function(x, ...) {
     inv <- solve(matrix, ...)
     x$setinverse(inv)
     inv
+    
+    
+    
 }
+
+
+
+
+
+
+
+
+
